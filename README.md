@@ -1,15 +1,15 @@
-# 🌌 Stellar Spectral Music
+# Stellar Spectral Music
 ### Sonifying the Hertzsprung–Russell Diagram using Machine Learning and Astronomy
 
 Stellar Spectral Music is a data science and interactive sonification project that transforms stellar properties into music.
 
 Using real astronomical data, this project analyzes stars, classifies stellar populations using machine learning, detects unusual stars through anomaly detection, and converts physical stellar properties into musical motifs and sound.
 
-The goal is to create an experience where users can **see, explore, and hear the differences between stars**.
+The goal is to create an experience where users can see, explore, and hear the differences between stars.
 
 ---
 
-## 🎯 Project Goals
+## Project Goals
 
 This project combines:
 
@@ -21,15 +21,15 @@ This project combines:
 
 Users can:
 
-⭐ Explore an interactive HR diagram  
-🎵 Hear stars as generated musical phrases  
-🔮 Predict stellar class from physical properties  
-⚠ Discover anomalous or unusual stars  
-📊 Visualize relationships between stellar features  
+- Explore an interactive HR diagram
+- Hear stars as generated musical phrases
+- Predict stellar class from physical properties
+- Discover anomalous or unusual stars
+- Visualize relationships between stellar features
 
 ---
 
-## 🌌 Dataset
+## Dataset
 
 Primary dataset:
 
@@ -51,7 +51,7 @@ Derived features:
 
 ---
 
-## 🧹 Data Pipeline
+## Data Pipeline
 
 ### 1. Data Collection
 Acquire stellar observations from Gaia.
@@ -65,19 +65,20 @@ Acquire stellar observations from Gaia.
 Generate physically meaningful variables:
 
 - Absolute Magnitude
-- Log-scaled temperature
-- Luminosity representations
+- Log-scaled Temperature
+- Luminosity Representations
 
 ### 4. Exploratory Data Analysis
 - HR Diagram
-- Feature distributions
-- Correlation analysis
+- Feature Distributions
+- Correlation Analysis
 
 ---
 
-## 🤖 Machine Learning
+## Machine Learning
 
 ### Stellar Classification
+
 Predict stellar categories using supervised learning.
 
 Possible outputs:
@@ -90,7 +91,7 @@ Possible outputs:
 Models:
 - Random Forest
 - Logistic Regression
-- SVM
+- Support Vector Machine (SVM)
 
 ---
 
@@ -110,11 +111,9 @@ Outputs:
 
 ---
 
-## 🎼 Spectral → Music Mapping
+## Spectral to Music Mapping
 
 The musical output is generated from stellar characteristics.
-
-Example mapping:
 
 | Stellar Property | Musical Parameter |
 |-----------------|------------------|
@@ -122,47 +121,45 @@ Example mapping:
 | Luminosity | Volume |
 | Mass | Duration |
 | Stellar Class | Instrument |
-| Anomaly Score | Harmony Complexity |
+| Anomaly Score | Harmonic Complexity |
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
-Python
-
-Data:
+### Data
 - pandas
 - numpy
 
-Visualization:
+### Visualization
 - matplotlib
 - plotly
 
-Machine Learning:
+### Machine Learning
 - scikit-learn
 
-Audio:
+### Audio
 - MIDIUtil
 - FluidSynth
 
-Deployment:
+### Deployment
 - Streamlit
 - Hugging Face Spaces
 
 ---
 
-## 🚀 Future Features
+## Planned Features
 
 - Interactive HR diagram
 - Clickable stars
 - Audio playback
 - Dynamic motif generation
 - Real-time prediction
-- Star information popups
+- Star information panels
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Stellar-Spectral-Music/
@@ -179,7 +176,7 @@ Stellar-Spectral-Music/
 
 ---
 
-## 🎓 Motivation
+## Motivation
 
 Stars are usually studied visually.
 
@@ -191,6 +188,6 @@ By combining astronomy and machine learning, Stellar Spectral Music transforms a
 
 ---
 
-## 📌 Status
+## Status
 
-🚧 In Development
+In Development
